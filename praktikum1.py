@@ -67,7 +67,7 @@ enemies = [
 ]
 
 lives = 3
-heart_image = pygame.image.load('images/heart.png')
+heart_image = pygame.image.load('heart.png')
 
 running = True  
 while running:
