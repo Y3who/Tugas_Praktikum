@@ -29,7 +29,7 @@ font = pygame.font.Font(pygame.font.get_default_font(), 24)
 game_state = 'playing'
 
 # player
-player_image = pygame.image.load('images/robot_0.png')
+player_image = pygame.image.load('robot_0.png')
 player_x = 300
 
 player_y = 0
@@ -50,7 +50,7 @@ platforms = [
     pygame.Rect(450,250,50,50),
 ]
 # coins
-coins_image = pygame.image.load('images/coin_0.png')
+coins_image = pygame.image.load('coin_0.png')
 coins = [
     pygame.Rect(100,200,23,23),
     pygame.Rect(200,250,23,23),
@@ -60,7 +60,7 @@ coins = [
 score = 0
 
 # enemies
-enemies_image = pygame.image.load('images/enemies_0.png')
+enemies_image = pygame.image.load('enemies_0.png')
 enemies = [
     pygame.Rect(150,271,50,29),
     pygame.Rect(400,271,50,29)
